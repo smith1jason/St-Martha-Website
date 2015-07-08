@@ -19,7 +19,7 @@
 		});
 
 		$(window).load(function() {
-			$("#parish").addClass("active");
+			$("#about-us").addClass("active");
 			var width = $(".active").width();
 			var position = $(".active").position();
 			var newPos = position.left + (width / 2 + 10) + "px";
@@ -64,9 +64,9 @@
 <body>
 	<div id="header">
 		<div class="container">
-			<a href="about-us.html" id="logo"><img src="images/logo.jpg" alt="St. Martha Banner"></a>
+			<a href="index.html" id="logo"><img src="images/logo.jpg" alt="St. Martha Banner"></a>
 			<div id="header-right">
-				<div id="search-button"></div>
+				<div id="search-button"><img src="images/search-button.jpg"></div>
 				<div id="sign-in-register-link">
 					<a href="">Sign In</a>
 					&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -86,7 +86,27 @@
 		</div>
 	</div>
 
-	<div id="main-content">		<div id="container-white">
+	<div id="main-content">		<div id="slider">
+			<ul>
+				<li>
+					<h1>SPIRTUAL GROWTH<br>BORN IN FAITH</h1>
+					<p>Through community and service to others, we strive<br>
+					to discover, experience, and share our students<br>
+					talents through education and worship.</p>
+					<a class="btn1" href="#">OUR MISSION</a>
+					<a class="btn2" href="#">GET INVOLVED</a>
+				</li>
+				<li>
+					<h1 id="slide1">This is also a slide.</h1>
+					<img src="images/slide1.jpg" width="100%" height="100%">
+				</li>
+				<li>
+					<h1 id="slide2">This is an empty slide.</h1>
+				</li>
+			</ul>
+		</div>
+
+		<div id="container-white">
 			<div class="container">
 				<h1>Committed to fostering a community of trust</h1>
 				<h2>Subtitle goes here</h2>
@@ -99,7 +119,7 @@
 		<div id="container-gray">
 			<div class="container">
 				<h1>Seriously fancy title goes here on left</h1>
-				<p>Paragraph of random words goes here.  Like, really really really random words, like you seriously can't even being to comprehend how random these words are going to be.  So serious they will blow your mind.  So serious.  So random.  In fact so incredibly random that this paragraph is going to continue on, mainly because I need to show that the header to the left of this paragraph will align center with the container that it's in.  Still, there's a whole lot of random words in this paragraph and I sure you don't miss the 20 seconds of your life that you just wasted reading this.  Go read a book or something.<br>
+				<p>Paragraph of random words goes here.  Like, really really really random words, like you seriously can't even being to comprehend how random these words are going to be.  So seriously random they will blow your mind.  So serious.  So random.  In fact so incredibly random that this paragraph is going to continue on, mainly because I need to show that the header to the left of this paragraph will align center with the container that it's in.  Still, there's a whole lot of random words in this paragraph and I'm sure you don't miss the 20 seconds of your life that you just wasted reading this.  Go read a book or something.<br>
 				<a class="btn" href="#">Read More</a>
 				</p>
 			</div>
@@ -161,14 +181,24 @@
 				<a href="#">Sitemap</a>
 
 				<div id="footer-right">
-					<a href="#" id="fb"></a>
-					<a href="#" id="tw"></a>
-					<a href="#" id="li"></a>
-					<a href="#" id="yt"></a>
+					<a href="#" id="fb"><img src="images/fb.jpg"</a>
+					<a href="#" id="tw"><img src="images/tw.jpg"</a>
+					<a href="#" id="li"><img src="images/li.jpg"</a>
+					<a href="#" id="yt"><img src="images/yt.jpg"</a>
 				</div>
 			</div>
 			<div id="footer-logo"></div>
 		</div>
 	</div>
 </body>
+	<!--<script>
+	$(window).scroll(function() {
+if ($(this).scrollTop() > 1){
+    $('header').addClass("sticky");
+  }
+  else{
+    $('header').removeClass("sticky");
+  }
+});
+	</script> -->
 </html>
