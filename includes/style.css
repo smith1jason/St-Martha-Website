@@ -250,14 +250,14 @@ body {
 /* Slides
 ------------------------------- */
 #slider ul li:nth-child(1) {
-	background-image:url("images/slide1.jpg");
+	/*background-image:url("images/slide1.jpg");*/
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center 15%;
 }
 
 #slide1 {
-	background-image:url("images/slide1.jpg");
+	/*background-image:url("images/slide1.jpg");*/
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center 15%;
