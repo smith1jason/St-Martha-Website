@@ -32,6 +32,7 @@ MAIN HEADER
 }
 .container {
 	width:1020px;
+	max-width:100%;
 	margin:0 auto;
 	padding:0;
 	height:100%;
@@ -410,7 +411,6 @@ MAIN HEADER
 #footer a {
 	color:#999;
 	text-decoration:none;
-	display:block;
 	letter-spacing:0.3px;
 }
 
@@ -448,8 +448,8 @@ MAIN HEADER
 }
 
 #footer-right {
-	margin-top:3px;
-	margin-right:55px;
+	margin-top:3%;
+	margin-right:3%;
 	float:right;
 }
 
