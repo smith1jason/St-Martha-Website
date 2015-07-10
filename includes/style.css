@@ -17,10 +17,15 @@ body {
 	min-width:1020px;
 }
 
+
+/*********************
+MAIN HEADER
+*********************/
+
 #header {
 	background-color:#20bd66;
 	width:100%;
-	position:relative;
+	position:fixed;
 	height:168px;
 	z-index:15;
 	transition: all 0.4s ease;
@@ -37,7 +42,7 @@ body {
 	width:358px;
 	height:74px;
 	position:absolute;
-	left:0;
+	left:10px;
 	top:24px;
 	border:0;
 }
@@ -92,7 +97,7 @@ body {
 }
 
 #nav {
-	width:900px;
+	/*width:900px;*/
 	bottom:2px;
 	height:40px;
 	position:absolute;
@@ -133,6 +138,10 @@ body {
 	border-right: 8px solid transparent;
 	border-top: 10px solid #20bd66;
 	z-index:10;
+}
+
+#main-content {
+	padding-top: 100px;
 }
 
 #slider {
@@ -386,6 +395,8 @@ body {
 	color:#fff;
 	font-size:15px;
 	line-height:35px;
+	bottom: 0;
+	height: 100%;
 }
 
 #footer h3 {
@@ -443,7 +454,7 @@ body {
 }
 
 #footer-right a {
-	display:inline-block;
+	display:inline;
 	border:0;
 	-webkit-transition: all 0.15s ease-in-out;
 	-moz-transition: all 0.15s ease-in-out;
@@ -473,7 +484,7 @@ body {
 	height:32px;
 }
 
-#yt {
+.ph {
 	width:32px;
 	height:32px;
 }

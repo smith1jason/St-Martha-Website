@@ -3,8 +3,11 @@
 <head>
 	<title>St. Martha Catholic Community</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="includes/reset.css">
 	<link rel="stylesheet" type="text/css" href="includes/style.css">
+	<link rel="stylesheet" type="text/css" href="includes/responsive.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="includes/unslider.min.js"></script>
 	<script>
@@ -64,7 +67,7 @@
 <body>
 	<div id="header">
 		<div class="container">
-			<a href="index.html" id="logo"><img src="images/logo.jpg" alt="St. Martha Banner"></a>
+			<a href="index.html" id="logo"><img src="images/logo.jpg" style:"max-width: 100%" alt="St. Martha Banner"></a>
 			<div id="header-right">
 				<div id="search-button"><img src="images/search-button.jpg"></div>
 				<div id="sign-in-register-link">
@@ -137,7 +140,7 @@
 
 	<div id="footer">
 		<div class="container">
-			<div class="four-columns">
+			<!--<div class="four-columns">
 				<h3>Heading</h3>
 				<a href="#">Link</a>
 				<a href="#">Another Link</a>
@@ -172,7 +175,7 @@
 				<a href="#">Another Link</a>
 				<a href="#">Another Link</a>
 				<a href="#">Another Link</a>
-			</div>
+			</div> -->
 			<div id="footer-left">
 				&copy; &nbsp;2015&nbsp; SAINT MARTHA COMMUNITY
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -181,24 +184,14 @@
 				<a href="#">Sitemap</a>
 
 				<div id="footer-right">
-					<a href="#" id="fb"><img src="images/fb.jpg"</a>
-					<a href="#" id="tw"><img src="images/tw.jpg"</a>
-					<a href="#" id="li"><img src="images/li.jpg"</a>
-					<a href="#" id="yt"><img src="images/yt.jpg"</a>
+					<a href="#" id="fb"><img src="images/facebook.png"</a>
+					<a href="#" id="tw"><img src="images/twitter.png"</a>
+					<a href="#" id="li"><img src="images/mail.png"</a>
+					<a href="#" class="ph"><img src="images/phone.png"</a>
 				</div>
 			</div>
 			<div id="footer-logo"></div>
 		</div>
 	</div>
 </body>
-	<!--<script>
-	$(window).scroll(function() {
-if ($(this).scrollTop() > 1){
-    $('header').addClass("sticky");
-  }
-  else{
-    $('header').removeClass("sticky");
-  }
-});
-	</script> -->
 </html>
