@@ -31,7 +31,6 @@ MAIN HEADER
 	transition: all 0.4s ease;
 }
 .container {
-	width:1020px;
 	max-width:100%;
 	margin:0 auto;
 	padding:0;
@@ -66,6 +65,7 @@ MAIN HEADER
 	transition: all 0.15s ease-in-out;
 	margin-right:10px;
 }
+
 
 #search-button:hover {
 	opacity:0.7;
@@ -539,7 +539,7 @@ MAIN HEADER
 	top: 0;
 }
 @media(max-width: 350px){
-	
+
 	.header-wrapper #logo img{
 		width: 235px;
 		margin: 0 auto;
@@ -553,7 +553,7 @@ MAIN HEADER
 	padding: 0 21px;
 }
 .navbar-nav{
- margin-top: 12px;	
+ margin-top: 12px;
 }
 @media(max-width: 767px){
     .navbar-nav li{
